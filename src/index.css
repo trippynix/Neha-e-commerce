@@ -1,1 +1,13 @@
+@font-face {
+  font-family: pfd-italic;
+  src: url("./assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: pfd-regular;
+  src: url("./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
 @import "tailwindcss";
+@theme {
+  --font-pfd-italic: "pfd-italic", serif;
+  --font-pfd-regular: "pfd-regular", serif;
+}
